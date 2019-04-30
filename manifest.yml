@@ -3,7 +3,7 @@ applications:
   - name: calculator
     path: build/libs/calculator.jar
   routes:
-    - route: calculator-cheerful-swan.apps.evans.pal.pivotal.io
+    - route: calculator-clean-koala.apps.evans.pal.pivotal.io
     env:
       WELCOME_MESSAGE: Hello from the calculator review environment
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
